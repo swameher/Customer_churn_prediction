@@ -1,9 +1,9 @@
-<h2 align="center">
+<h1 align="center">
   Customer Churn Analysis Prediction
-</h2>
+</h1>
 
 <div align="center">
-  <img alt="Dashboard Preview" src="Overview/img.png" />
+  <img alt="Dashboard Preview" src="Overview/img.png" width="60%" />
 </div>
 
 ---
@@ -44,17 +44,12 @@ The primary aim of this project is to:
 - **Python**: Pandas, NumPy, and Scikit-learn for predictive modeling.
 
 ## Output & Business Impact
-- **Churn Risk Analysis**: Identified high-risk customer segments for targeted retention strategies.
-- **Revenue Forecasting**: Estimated financial loss due to churn, aiding proactive business decisions.
-- **Customer Segmentation Reports**: Insights on demographic and service-based churn trends.
-- **Predictive Model Results**: An interpretable churn prediction model for customer retention.
-- **Power BI Dashboard**: A real-time churn monitoring system enabling data-driven decision-making.
-
-### Business Impact
-- Improved retention by identifying and addressing high-risk customers.
-- Optimized revenue by forecasting churn-related financial impact.
-- Provided actionable insights to marketing teams for personalized campaigns.
-- Offered a scalable approach applicable across various industries (retail, banking, healthcare).
+- Identified at-risk customers for targeted retention
+- Estimated revenue loss from churn
+- Insights on churn trends across demographics
+- Churn prediction for customer retention strategies
+- Increased retention and reduced financial loss
+- Scalable strategy for industries like retail and healthcare
 
 ## Conclusion
 This project demonstrates how SQL Server, Power BI, and Machine Learning can be integrated to analyze churn, predict customer behavior, and drive strategic decisions. The combination of advanced analytics and visualization enhances retention efforts, ensuring long-term business growth.
@@ -72,9 +67,9 @@ This project demonstrates how SQL Server, Power BI, and Machine Learning can be 
    - Publish the Power BI report for real-time monitoring.
 
 ## Future Enhancements
-- Implement advanced machine learning models (Random Forest, XGBoost) for better prediction accuracy.
-- Incorporate real-time data streaming for dynamic churn monitoring.
-- Develop automated alerts for at-risk customers to trigger retention actions.
+- Advanced ML models (Random Forest, XGBoost) for better accuracy
+- Real-time data streaming for dynamic churn monitoring
+- Automated retention alerts for at-risk customers
 
 ## Repository Structure
 ```
@@ -83,6 +78,9 @@ This project demonstrates how SQL Server, Power BI, and Machine Learning can be 
 │── 📂 SQL_Scripts         # SQL scripts for data processing
 │── 📂 PowerBI_Dashboard   # Power BI report files
 │── 📂 ML_Model            # Python scripts for churn prediction
+│── 📂 background           # Canvas backgrounds for Power BI
+│── 📂 images               # Images used in the dashboard
+│── 📂 overview             # Power BI page snapshots & Overview.pdf
 │── README.md              # Project documentation
 ```
 
