@@ -1,11 +1,12 @@
 <h2 align="center">
-  Customer Churn Analysis Prediction<br/>
-  <a>Madhav Store</a>
+  Customer Churn Analysis Prediction
 </h2>
 
 <div align="center">
-  <img alt="Dashboard Preview" src="overview/img.png" />
+  <img alt="Dashboard Preview" src="Overview/img.png" />
 </div>
+
+---
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/gbraad)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
