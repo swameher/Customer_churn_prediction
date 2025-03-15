@@ -26,36 +26,9 @@ The primary aim of this project is to:
 - Enable the telecom company to take proactive retention measures.
 
 ## Key Steps
-
-### 1. Data Collection and Preparation
-- **Source Identification**: Gathered customer data from CSV files, including demographics, billing, service usage, tenure, and churn status.
-- **Database Creation**: Designed a structured SQL Server database (`db_Churn`) for efficient data storage.
-- **Data Import & Cleaning**:
-  - Imported data using SQL Server Management Studio (SSMS).
-  - Handled missing values using `ISNULL()`.
-  - Standardized categorical variables and removed inconsistencies.
-  - Aggregated data to generate key metrics like average tenure and service usage distribution.
-- **Final Data Preparation**: Stored cleaned data in a production table (`prod_Churn`) and created SQL views (`vw_ChurnData`, `vw_JoinData`) for Power BI integration.
-
-### 2. Data Transformation and Analysis
-- **Feature Engineering**:
-  - Created calculated columns in Power BI.
-  - Converted churn labels to binary (1 = Churned, 0 = Active).
-  - Grouped customers by monthly charges, age brackets, and tenure categories.
-- **Churn Insights & Findings**:
-  - Identified high-risk customers based on contract type, payment method, and monthly charges.
-  - Computed key metrics: churn rate, new customer trends, and revenue impact.
-- **Predictive Modeling**:
-  - Implemented Logistic Regression to predict churn probability.
-  - Evaluated model performance using Precision, Recall, and F1-score.
-
-### 3. Power BI Dashboard Development
-- **Visualized Key Metrics**:
-  - Designed interactive reports showing churn trends, revenue impact, and demographic insights.
-  - Analyzed the correlation between service usage and churn.
-- **Filters & Interactivity**:
-  - Added drill-through and filtering options (contract type, payment method, tenure).
-  - Integrated date slicers for real-time churn trend exploration.
+- Data Collection and Preparation
+- Data Transformation and Analysis
+- Power BI Dashboard Development
 
 ## Key Techniques & Tools
 ### Techniques:
